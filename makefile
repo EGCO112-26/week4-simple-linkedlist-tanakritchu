@@ -1,8 +1,8 @@
 compile: assg.c 
-	 gcc assg.c -o assg
+	 gcc assg.c -o test
 
-run: assg
-	 ./assg
+run: test
+	 ./test
 
-clean: assg
-	 rm assg
+clean: test
+	 rm test

@@ -30,7 +30,6 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("print linked list\n");
     temp = head;
     while (temp) {
         printf("%s %s\n", temp->id, temp->name);
