@@ -15,3 +15,10 @@ struct node
 };
 
 #endif /* node_h */
+
+struct std_node
+{
+char id[20];
+char name[30];
+struct std_node *next;
+};

@@ -1,8 +1,8 @@
-compile: main.c 
-	 gcc main.c -o ming
+compile: assg.c 
+	 gcc assg.c -o assg
 
-run: ming
-	 ./ming
+run: assg
+	 ./assg
 
-clean: ming
-	 rm ming
+clean: assg
+	 rm assg
